@@ -1,0 +1,360 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 594900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "user search a flight using valid search details",
+        "description": "",
+        "id": "testing-booking-functionality-in-the-makemytrip-application;user-search-a-flight-using-valid-search-details",
+        "after": [
+          {
+            "result": {
+              "duration": 187000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17916966900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch the application",
+            "match": {
+              "location": "Search_Flight_StepDefinition.user_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10876665900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User selects the flight option to travel",
+            "match": {
+              "location": "Search_Flight_StepDefinition.user_selects_the_flight_option_to_travel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3921851600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User checks on round trip as option",
+            "match": {
+              "location": "Search_Flight_StepDefinition.user_checks_on_round_trip_as_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2451967800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter \"Chennai, India\" as source city",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chennai, India",
+                  "offset": 12
+                }
+              ],
+              "location": "Search_Flight_StepDefinition.user_enter_as_source_city(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1875508200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter \"Delhi, India\" as destination city",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Delhi, India",
+                  "offset": 12
+                }
+              ],
+              "location": "Search_Flight_StepDefinition.user_enter_as_destination_city(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2373909900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter the departure date",
+            "match": {
+              "location": "Search_Flight_StepDefinition.user_enter_the_departure_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6682962800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enter the return date",
+            "match": {
+              "location": "Search_Flight_StepDefinition.user_enter_the_Return_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6547101900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click on the search button",
+            "match": {
+              "location": "Search_Flight_StepDefinition.user_click_on_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21026900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User navigates to Flight details page",
+            "match": {
+              "location": "Search_Flight_StepDefinition.user_navigates_to_Flight_details_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 261800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User filter the flights that has the lowest price and minimul travelling time",
+        "description": "",
+        "id": "testing-booking-functionality-in-the-makemytrip-application;user-filter-the-flights-that-has-the-lowest-price-and-minimul-travelling-time",
+        "after": [
+          {
+            "result": {
+              "duration": 204900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15846800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user view number of flights with unordered",
+            "match": {
+              "location": "Lowest_Fastest_Selection_StepDefinition.user_view_number_of_flights_with_unordered()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2007887700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User filter the low to high option from the drop down",
+            "match": {
+              "location": "Lowest_Fastest_Selection_StepDefinition.user_filter_the_low_to_high_option_from_the_drop_down()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43016300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User counts the number of flights in the filtered list",
+            "match": {
+              "location": "Lowest_Fastest_Selection_StepDefinition.user_counts_the_number_of_flights_in_the_filtered_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 364033400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User retrieves price details from each flight",
+            "match": {
+              "location": "Lowest_Fastest_Selection_StepDefinition.user_retrieves_price_details_from_each_fligh()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 430190200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User select the fastest flight from the filtered list",
+            "match": {
+              "location": "Lowest_Fastest_Selection_StepDefinition.user_select_the_fastest_flight_from_the_filtered_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10574913200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User select the evening flight if duplicate set of lowest price and fastest flight",
+            "match": {
+              "location": "Lowest_Fastest_Selection_StepDefinition.user_select_the_evening_flight_if_duplicate_set_of_lowest_price_and_fastest_flight()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2980611700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User verifies that the selected option is lowest and fastest",
+            "match": {
+              "location": "Lowest_Fastest_Selection_StepDefinition.user_verifies_that_the_selected_option_is_lowest_and_fastest()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 168900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "User select the flight the lowest price, fastest and book the same",
+        "description": "",
+        "id": "testing-booking-functionality-in-the-makemytrip-application;user-select-the-flight-the-lowest-price,-fastest-and-book-the-same",
+        "after": [
+          {
+            "result": {
+              "duration": 105100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4005900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User view the info of the selected flight",
+            "match": {
+              "location": "Booking_Flight_StepDefinition.user_view_the_selected_flight()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16974202300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User click on radio button of selected flight",
+            "match": {
+              "location": "Booking_Flight_StepDefinition.user_click_on_radio_button_of_selected_flight()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5934070100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User click on Book button for booking the same flight",
+            "match": {
+              "location": "Booking_Flight_StepDefinition.user_click_on_Book_button_for_booking_the_same_flight()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3703685500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User verifies the booking details",
+            "match": {
+              "location": "Booking_Flight_StepDefinition.user_verifies_the_booking_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing booking functionality in the makemytrip application",
+    "description": "",
+    "id": "testing-booking-functionality-in-the-makemytrip-application",
+    "keyword": "Feature",
+    "uri": "src/test/resource/com/makemytrip/feature/BookAFlight.feature"
+  }
+]
